@@ -25,7 +25,7 @@
 
   users.users.root.openssh.authorizedKeys.keys = [
     # change this to your ssh key
-    "CHANGE"
+    "CHANGE_ME"
   ];
 
   networking.firewall.allowedTCPPorts = [
