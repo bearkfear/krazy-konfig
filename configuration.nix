@@ -25,10 +25,10 @@
   # Enable networking
   networking.networkmanager.enable = true;
   networking.interfaces.eth0.ipv4.addresses = [
-   {
-    address = "192.168.100.20";
-    prefixLength = 24;
-   }
+    {
+      address = "192.168.100.20";
+      prefixLength = 24;
+    }
   ];
   networking.defaultGateway = "192.168.100.1";
   networking.nameservers = [ "1.1.1.1" "8.8.8.8" ];
@@ -97,7 +97,6 @@
   # networking.firewall.allowedUDPPorts = [ ... ];
   # Or disable the firewall altogether.
   networking.firewall.enable = false;
-
   # This value determines the NixOS release from which the default
   # settings for stateful data, like file locations and database versions
   # on your system were taken. It‘s perfectly fine and recommended to leave
