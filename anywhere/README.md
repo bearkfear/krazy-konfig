@@ -1,3 +1,7 @@
+The motivation video: [youtube-video](https://www.youtube.com/watch?v=26jqQoS6SdQ)
+
+
+
 [documentation](https://github.com/nix-community/nixos-anywhere/blob/main/docs/quickstart.md)
 
 dockerfile to run nixos-anywhere without using linux on the host;
